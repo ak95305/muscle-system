@@ -24,13 +24,28 @@
 img{
     width: 100%;
 }
-.sec-whey-bg, .sec-whey-bg3, .sec-whey-bg5, .sec-whey-bg4{
+.sec-whey-bg, .sec-whey-bg3, .sec-whey-bg5, .sec-whey-bg4, .sec-whey-bg6, .sec-whey-bg7{
    display: none;
 }
 
 
 
+/* banner */
+.banner-pc{
+    display: block;
+}
+.banner-mob{
+    display: none;
+}
 
+@media (max-width: 767px){
+    .banner-pc{
+        display: none;
+    }
+    .banner-mob{
+        display: block;
+    }   
+}
 
 
 .sec-serv-p{
